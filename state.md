@@ -3,16 +3,20 @@
 Answer these on your own, then compare answers as a group
 
 1.  What is state?
+    managed within the component (similar to declare variables within a function), Javascript object that handles data that influences out of render(), component has access to its own state that it can manage
 
 2.  Where do you set initial state?
+    inside the constructor and/or directly inside the class
 
 3.  What method do you use to update state?
+    setState()
 
 ### Understand
 
 Discuss this question in pairs if you have a 4-person group
 
 4.  Explain what's happening in this component.
+    Questions-answered counter based on clicks
 
 ```jsx
 import React, { Component } from "react";

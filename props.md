@@ -3,14 +3,20 @@
 Answer these on your own, then compare answers as a group
 
 1.  What are props?
+    (short for properties) are a Component's configuration, its options if you may. They are received from above and immutable as far as the Component receiving them is concerned. (parent to child)
 
 2.  How do you pass props from a parent to a child?
+    props are data that are passed from a parent to its children and are made available through this.props on the child component tag
 
 3.  How do you access props from a class based child component?
+    pass one callback function from parent to child and then use this passed-down function in the child to send something back to parent.
+    this.props.PROP_NAME
 
 4.  How do you access props from a functional component?
+    declare them in your functional component callback just as you would with any other type of function
 
 5.  How do you bind a function to a parent component so that it can be passed to a child?
+    Two ways - binding in the constructor (outside of the this.state object), lexical binding in arrow functions
 
 ### Understand
 
